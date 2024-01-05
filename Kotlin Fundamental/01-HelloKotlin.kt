@@ -11,4 +11,7 @@
 fun main() {
   // we call println function to print the argument.
    println("Hello Kotlin!")
+
+   // we can use print function too, unlike the println which print lines after the argument, print just print the argument.
+   print("Hello Kotlin")
 }
