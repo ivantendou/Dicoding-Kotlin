@@ -33,3 +33,19 @@ val numberList = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 val moreThan10 = numberList.first { it > 1 }
 print(moreThan10)
 // Output: 2
+
+// sum()
+val numberList = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+val total = numberList.sum()
+// total: 55
+println(total)
+
+// sorted()
+val kotlinChar = listOf('k', 'o', 't', 'l', 'i', 'n')
+val ascendingSort = kotlinChar.sorted() // ascending by default
+println(ascendingSort)
+// ascendingSort: [i, k, l, n, o, t]
+val kotlinChar = listOf('k', 'o', 't', 'l', 'i', 'n')
+val descendingSort = kotlinChar.sortedDescending() // descending
+println(descendingSort)
+// descendingSort: [t, o, n, l, k, i]
