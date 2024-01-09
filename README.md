@@ -16,7 +16,6 @@ This repository serves as documentation for the "Getting Started with Kotlin Pro
 - **Kotlin Functional Programming**
 - **Kotlin Object-Oriented Programming**
 - **Kotlin Generics**
-- **Kotlin Coroutines**
 
 All modules have been completed, and this repository provides comprehensive information and documentation based on the learning materials.
 
